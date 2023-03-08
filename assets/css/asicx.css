@@ -1195,7 +1195,7 @@ hr{border: 2px solid #00ABD8; width: 50%;}
     .offer-area .container {max-width: 720px;}
     .offer-content p{ font-size: 14px;}
     .offerItem.active .offer-content {margin-left: 0;}
-    h4.offerItemTitle {font-size: 14px;top: 93%; width: 280px;font-family: 'ProximaNovaA-Regular'; height: 36px; line-height: 36px; left: 17px;}
+    h4.offerItemTitle {font-size: 14px;top: 93%; width: 280px; height: 36px; line-height: 36px; left: 17px;}
     .offerItem.active .offer-detail {width: 500px;}
     .offer-content h2 {font-size: 18px;margin: 0;}
     .offer-content a {padding: 7px 13px; font-size: 16px; margin-top: 10px;}
