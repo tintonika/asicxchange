@@ -674,11 +674,18 @@ banner
   font-style: normal;
   color: #00abd8;  
 }
+.main-banner .mobile{
+  display: none;
+}
 @media (max-width: 767px) {
   #bg-video {
     min-width: 50%;
-    min-height: 50vh;
+    min-height: 50vh;    
   }
+  .main-banner{
+    height: 438px;
+  }
+  
   .main-banner .caption h2 {
     font-size: 24px;
   }
@@ -1211,7 +1218,7 @@ hr{border: 2px solid #00ABD8; width: 50%;}
     h4.offerItemTitle{ text-align: left;padding-left: 15px; position: relative; transform: rotate(0); border-bottom: 1px solid #999; height: 40px; line-height: 40px; width: 100%; left: 0;}
     .offer-img {margin: 0;}
     .offer-content {margin: 0;max-width: 100%;}
-    .offer-content a { padding: 10px 25px;}
+    .offer-content a { padding: 10px 25px;float: inherit;}
     .offer-content p { font-size: 14px;padding-left: 1rem;padding-right: 1rem;}
     .offerItemTitle.hide {background: #00ABD8; display: block;}
     .offerItem.active .offer-detail {width: 100%; display: block;}
