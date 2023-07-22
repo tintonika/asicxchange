@@ -17,7 +17,7 @@ if (isset($_POST['message'])) {
 }
 
 /* Сюда впишите свою эл. почту */
-$myaddres  = "alex@asicxchange.com";
+$myaddres  = "Contact@asicxchange.com";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
 $mes = "You have received a new message from the user $name ($company).\n" .
